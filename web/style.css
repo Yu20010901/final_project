@@ -1,0 +1,53 @@
+html,
+
+.title{
+    color:olive;
+    text-align:center;
+    font-size:30px;
+    font-weight:bold;
+}
+
+body {
+    background: #FF95CA;
+}
+
+/* 使用井字號來選取特定id的html物件 */
+#canvas {
+    cursor:grab;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 280px;
+    height: 280px;
+    background-color: white;
+    box-shadow: 10px 10px 5px lightgreen;
+    border-radius: 8px;
+    text-align:center;
+}
+a{
+    text-decoration:none;
+    font-size:20px;
+    height:300px;
+}
+a:link{
+/* 設定還沒有瀏覽過的連結 */
+color:#000;
+}
+a:visited {
+/* 設定已經瀏覽過的連結 */
+color:#ffffff;
+background-color:red;
+}
+a:hover {
+/* 設定滑鼠移經的連結 */
+text-decoration:underline;
+background-color:#fafafa;
+color:gray;
+}
+a:active {
+/* 設定正在點選的連結 */
+text-decoration:none;
+background-color:gray;
+color:#fafafa;
+}
