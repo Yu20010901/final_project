@@ -8,7 +8,9 @@
 ```bash
 npx serve
 ```
+輸入結果
+![image text](https://raw.githubusercontent.com/Yu20010901/final_project/master/web_npx.PNG)
 
-## 訓練
+## 訓練資料
 將在minst資料夾裡詳細說明
 
